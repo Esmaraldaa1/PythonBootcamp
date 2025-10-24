@@ -10,4 +10,6 @@ else:
     parameters = sys.argv[1:]
     reversed_params = parameters[::-1] # slice to reverse order 
     
-    print(" ".join(reversed_params)) # put them together again
+    print(reversed_params)
+    for word in reversed_params:
+        print(word)
