@@ -7,7 +7,7 @@ num_parameters = len(sys.argv) - 1
 if num_parameters == 0:
     print("none")
 else:
-    parameters = sys.argv[1:] # : makes a list of all parameters, this says everything after index 0
+    parameters = sys.argv[1:] # : makes a list of all parameters, everything from the first parameter
     printed = False
     
     for parameter in parameters:
